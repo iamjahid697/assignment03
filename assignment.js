@@ -50,3 +50,15 @@ function hotelCost(days) {
 }
 hotelCost(25);
 
+// megaFriend
+
+function megaFriend(arr) {
+    var longestWord = "";
+
+    for (var i = 0; i < arr.length; i++) {
+        if (longestWord.length < arr[i].length) {
+            longestWord = arr[i];
+        }
+    }
+    return longestWord;
+}
